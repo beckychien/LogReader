@@ -3,7 +3,7 @@ import json
 import os, shutil
 import time,datetime
 
-url='http://127.0.0.1:5002/data_batch/'
+url='http://127.0.0.1:5002/fulllog_batch/'
 path=os.path.abspath("..")+"/fulllog/"
 for f in os.listdir(path):
 	requst_url=url+f

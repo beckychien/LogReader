@@ -3,7 +3,7 @@ import requests
 
 def test_uploads():
 
-	file = '/Users/fox/Desktop/newlog/73-17637-11-180909083120-FCH2235714J'
+	file = '/Users/fox/Desktop/newlog/73-17637-11-180909051904-FCH2235711V'
 
 	url = "http://10.132.46.138:5002/newlog"
    

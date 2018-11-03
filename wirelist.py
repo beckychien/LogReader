@@ -3,12 +3,11 @@ import json
 import os, shutil
 import time,datetime
 
-url='http://127.0.0.1:5002/wirelist/73-18275-04'
+url='http://127.0.0.1:5002/Wirelist/73-18275-04'
 
 print(url)
 try:
 	json_data=requests.post(url)
-
 	if(json_data.status_code==200):
 		data=json_data.json()
 		if(data.get('result')=='Success'):
